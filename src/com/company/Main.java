@@ -36,6 +36,7 @@ public class Main {
 
     public  Node Buildtree(List<Entry> entries)
     {
+        int c = 4;
         Stack<Node> st = new Stack<>();
         Entry entry = new Entry(0, "");
         Node node = new Node(entry);
